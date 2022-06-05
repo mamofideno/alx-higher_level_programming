@@ -1,0 +1,1 @@
+This module is all exercise on python data structure like list, tuple ..

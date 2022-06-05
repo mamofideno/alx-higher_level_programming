@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+def element_at(my_list, idx):
+    if idx < 0 or len(my_list) <= idx:
+        return "None"
+    else:
+        return my_list[idx]
+print(element_at([12,34],-1))
+print(element_at([12,123,45],4))
+print(element_at([23,45,67,56],3))

@@ -2,7 +2,7 @@
 def safe_print_division(a, b):
     """
     divides two integers and prints the result
-    catches error of divide by zero exception
+    catches error from of divide by zero exception
     """
     try:
         res = a / b
